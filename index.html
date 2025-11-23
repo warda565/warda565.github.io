@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Warda Malik - Full-Stack Developer & Software Engineer. Building scalable web applications with React, Node.js, and modern technologies. Portfolio showcasing projects, skills, and experience.">
+    <meta name="keywords"
+        content="Warda Malik, Full-Stack Developer, Software Engineer, Web Developer, React, Node.js, JavaScript, Portfolio, Peshawar, Pakistan">
+    <meta name="author" content="Warda Malik">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Warda Malik | Full-Stack Developer Portfolio">
+    <meta property="og:description"
+        content="Building scalable web applications with modern technologies. Passionate about clean code, user experience, and innovative solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://warda565.github.io/portfolio/">
+    <meta property="og:image" content="https://warda565.github.io/portfolio/images/og-image.jpg">
+    <meta property="og:site_name" content="Warda Malik Portfolio">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Warda Malik | Full-Stack Developer Portfolio">
+    <meta name="twitter:description"
+        content="Building scalable web applications with modern technologies. Passionate about clean code, user experience, and innovative solutions.">
+    <meta name="twitter:image" content="https://warda565.github.io/portfolio/images/twitter-card.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://warda565.github.io/portfolio/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Warda 565",
+        "jobTitle": "Full-Stack Developer",
+        "description": "Full-Stack Developer & Software Engineer specializing in React, Node.js, and modern web technologies",
+        "url": "https://warda565.github.io/portfolio/",
+        "email": "warda@devportfolio.com",
+        "telephone": "+92 123 1234567",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Peshawar",
+            "addressCountry": "Pakistan"
+        },
+        "sameAs": [
+            "https://linkedin.com/in/warda",
+            "https://github.com/warda",
+            "https://twitter.com/warda"
+        ],
+        "knowsAbout": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Full-Stack Development",
+            "Software Engineering",
+            "Web Development",
+            "Cloud Architecture"
+        ]
+    }
+    </script>
+    <title>Warda Malik | Portfolio</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">Warda Malik</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-name">Warda Malik</h1>
+                <p class="hero-title">Full-Stack Developer & Software Engineer</p>
+                <p class="hero-description">
+                    Building scalable web applications with modern technologies.
+                    Passionate about clean code, user experience, and innovative solutions.
+                </p>
+                <div class="hero-links">
+                    <a href="#" class="hero-link">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="hero-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="hero-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:warda@example.com" class="hero-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I'm a passionate full-stack developer with over 2 years of experience creating
+                    digital solutions that make a difference. I love turning complex problems into
+                    simple, beautiful, and intuitive applications.
+                </p>
+                <p class="about-text">
+                    When I'm not coding, you can find me exploring new technologies, contributing to
+                    open-source projects, or sharing knowledge through technical writing and mentoring.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fab fa-js-square"></i></div>
+                    <h3 class="service-title">Frontend Development</h3>
+                    <p class="service-description">Build modern, responsive user interfaces with React, Vue.js, and
+                        Angular.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <h3 class="service-title">Backend Development</h3>
+                    <p class="service-description">Develop robust server-side applications with Node.js, Python, and
+                        databases.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 class="service-title">Mobile Development</h3>
+                    <p class="service-description">Create cross-platform mobile apps using React Native and Flutter.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fab fa-wordpress"></i></div>
+                    <h3 class="service-title">WordPress Development</h3>
+                    <p class="service-description">Design and customize user-friendly, visually appealing websites.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                    <h3 class="service-title">Cloud Solutions</h3>
+                    <p class="service-description">Deploy and manage applications on AWS, Azure, and Google Cloud
+                        platforms.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="service-title">Clean Coding</h3>
+                    <p class="service-description">Write maintainable and organized code for easy project management.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">
+                            <i class="fab fa-react"></i>
+                            React
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-vue"></i>
+                            Vue.js
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-js"></i>
+                            JavaScript
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-css3-alt"></i>
+                            CSS3
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-html5"></i>
+                            HTML5
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-sass"></i>
+                            Sass
+                        </span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">
+                            <i class="fab fa-node-js"></i>
+                            Node.js
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-python"></i>
+                            Python
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-database"></i>
+                            MongoDB
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-database"></i>
+                            PostgreSQL
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-server"></i>
+                            Express.js
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-fire"></i>
+                            Firebase
+                        </span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">
+                            <i class="fab fa-docker"></i>
+                            Docker
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-aws"></i>
+                            AWS
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-git-alt"></i>
+                            Git
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-jenkins"></i>
+                            CI/CD
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-cloud"></i>
+                            Kubernetes
+                        </span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Other</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">
+                            <i class="fab fa-figma"></i>
+                            Figma
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-mobile-alt"></i>
+                            React Native
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fab fa-wordpress"></i>
+                            WordPress
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-chart-line"></i>
+                            Analytics
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <h4 class="company-name">TechCorp Solutions</h4>
+                        <p class="experience-description">Led development of scalable web applications and mentored
+                            junior developers in modern frameworks.</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <h4 class="company-name">StartupHub Inc.</h4>
+                        <p class="experience-description">Built full-stack applications from concept to deployment,
+                            focusing on user experience and performance optimization.</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <h4 class="company-name">Freelancing</h4>
+                        <p class="experience-description">Delivered customized web development services to clients
+                            worldwide, specializing in e-commerce and business solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="works-grid">
+                <div class="work-card">
+                    <div class="work-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3 class="work-title">E-Commerce Platform with AI Recommendations 🛒🤖</h3>
+                    <a href="#" class="work-link">Read More »</a>
+                </div>
+                <div class="work-card">
+                    <div class="work-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="work-title">Real-Time Analytics Dashboard for Business Intelligence 📊🚀</h3>
+                    <a href="#" class="work-link">Read More »</a>
+                </div>
+                <div class="work-card">
+                    <div class="work-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 class="work-title">Cross-Platform Mobile App for Social Networking 📱💬</h3>
+                    <a href="#" class="work-link">Read More »</a>
+                </div>
+                <div class="work-card">
+                    <div class="work-icon"><i class="fas fa-cloud"></i></div>
+                    <h3 class="work-title">Microservices Architecture with Kubernetes Deployment ☁️⚙️</h3>
+                    <a href="#" class="work-link">Read More »</a>
+                </div>
+                <div class="work-card">
+                    <div class="work-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="work-title">AI-Powered Content Management System 🤖📝</h3>
+                    <a href="#" class="work-link">Read More »</a>
+                </div>
+                <div class="work-card">
+                    <div class="work-icon"><i class="fas fa-lock"></i></div>
+                    <h3 class="work-title">Blockchain-Based Security Solution 🔐⛓️</h3>
+                    <a href="#" class="work-link">Read More »</a>
+                </div>
+            </div>
+            <div class="load-more">
+                <button class="btn btn-secondary">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Recent Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="blog-date">Dec 15, 2024</span>
+                        <span class="blog-category">React</span>
+                    </div>
+                    <h3 class="blog-title">Building Scalable React Applications with Modern Patterns</h3>
+                    <p class="blog-excerpt">
+                        Exploring the latest patterns and best practices for creating maintainable
+                        and scalable React applications in 2024.
+                    </p>
+                    <a href="#" class="blog-link">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="blog-date">Dec 8, 2024</span>
+                        <span class="blog-category">DevOps</span>
+                    </div>
+                    <h3 class="blog-title">Containerizing Applications with Docker and Kubernetes</h3>
+                    <p class="blog-excerpt">
+                        A comprehensive guide to containerization and orchestration for modern web applications.
+                    </p>
+                    <a href="#" class="blog-link">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 28, 2024</span>
+                        <span class="blog-category">JavaScript</span>
+                    </div>
+                    <h3 class="blog-title">Advanced JavaScript Concepts Every Developer Should Know</h3>
+                    <p class="blog-excerpt">
+                        Deep dive into closures, prototypes, async programming, and other advanced JS concepts.
+                    </p>
+                    <a href="#" class="blog-link">Read More →</a>
+                </article>
+            </div>
+            <div class="blog-cta">
+                <a href="#" class="btn btn-secondary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section id="funfacts" class="funfacts">
+        <div class="container">
+            <h2 class="section-title">FUN FACTS</h2>
+            <div class="funfacts-grid">
+                <div class="funfact-item">
+                    <div class="funfact-number" data-target="150">0</div>
+                    <div class="funfact-label">Projects Completed</div>
+                </div>
+                <div class="funfact-item">
+                    <div class="funfact-number" data-target="75">0</div>
+                    <div class="funfact-label">Happy Clients</div>
+                </div>
+                <div class="funfact-item">
+                    <div class="funfact-number" data-target="5000">0</div>
+                    <div class="funfact-label">Hours Worked</div>
+                </div>
+                <div class="funfact-item">
+                    <div class="funfact-number" data-target="25">0</div>
+                    <div class="funfact-label">Technologies Mastered</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">TESTIMONIALS</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-item active">
+                    <p class="testimonial-text">
+                        "I highly recommend Warda for her outstanding skills in full-stack development and cloud
+                        architecture.
+                        Working with Warda, I was impressed by her expertise in React and her ability to deliver
+                        scalable solutions.
+                        Her contributions were crucial to our project's success. Warda is a talented developer and a
+                        true asset to any team."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Mahnoor</strong>
+                        <span>Senior Tech Lead at InnovateTech</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">
+                        "Warda's coding skills are remarkable, and she consistently delivers high-quality results.
+                        She's not just a software engineer; she's a true problem solver and a key member of our team.
+                        His ability to work with modern frameworks and deliver on time is outstanding. Highly
+                        recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Ayesha</strong>
+                        <span>CTO at DevSolutions</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">
+                        "We needed a complex web application, and Warda delivered beyond our expectations.
+                        Her full-stack development skills are exceptional. She's a problem-solving genius who
+                        understands
+                        both technical requirements and business needs!"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Bakhtawar</strong>
+                        <span>Product Manager at StartupVentures</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="testimonial-dot active" data-slide="0"></button>
+                <button class="testimonial-dot" data-slide="1"></button>
+                <button class="testimonial-dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <h2 class="section-title">Clients</h2>
+            <div class="clients-grid">
+                <div class="client-logo"><i class="fab fa-microsoft"></i></div>
+                <div class="client-logo"><i class="fab fa-google"></i></div>
+                <div class="client-logo"><i class="fab fa-amazon"></i></div>
+                <div class="client-logo"><i class="fab fa-apple"></i></div>
+                <div class="client-logo"><i class="fab fa-facebook"></i></div>
+                <div class="client-logo"><i class="fab fa-spotify"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Call us</h4>
+                            <p>+92 123 1234567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email us</h4>
+                            <p>warda@devportfolio.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-details">
+                            <h4>Visit us</h4>
+                            <p>Peshawar, Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 DevPortfolio. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
